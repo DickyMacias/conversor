@@ -1,16 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Clase abstracta para a partir de ella heredar metodos abstractos
+y valores a clases hijas.
  */
 package conversor;
 
-/**
- *
- * @author dicky
- */
 public abstract class Formulas {
     
+    // Variables para valor entrante y para constante 
     public double valor;
     public double conversion;
 
